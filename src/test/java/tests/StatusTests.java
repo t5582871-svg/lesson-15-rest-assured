@@ -118,6 +118,5 @@ public class StatusTests {
                 .statusCode(200)
                 .body(matchesJsonSchemaInClasspath("schemas/status_response_schema.json"))
                 .body("total", is(5));
-        ;
     }
 }
